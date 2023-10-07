@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from colorlib.com/etc/regform/colorlib-regform-7/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 07 Oct 2023 05:11:41 GMT -->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Sign Up Form by Colorlib</title>
+
+<link rel="stylesheet" href="../../Sign in/fonts/material-icon/css/material-design-iconic-font.min.css">
+
+<link rel="stylesheet" href="../../Sign in/css/style.css">
+<meta name="robots" content="noindex, follow">
+<script nonce="9e577156-9a3d-4215-9909-82306a1d8bcc">(function(w,d){!function(a,b,c,d){a[c]=a[c]||{};a[c].executed=[];a.zaraz={deferred:[],listeners:[]};a.zaraz.q=[];a.zaraz._f=function(e){return async function(){var f=Array.prototype.slice.call(arguments);a.zaraz.q.push({m:e,a:f})}};for(const g of["track","set","debug"])a.zaraz[g]=a.zaraz._f(g);a.zaraz.init=()=>{var h=b.getElementsByTagName(d)[0],i=b.createElement(d),j=b.getElementsByTagName("title")[0];j&&(a[c].t=b.getElementsByTagName("title")[0].text);a[c].x=Math.random();a[c].w=a.screen.width;a[c].h=a.screen.height;a[c].j=a.innerHeight;a[c].e=a.innerWidth;a[c].l=a.location.href;a[c].r=b.referrer;a[c].k=a.screen.colorDepth;a[c].n=b.characterSet;a[c].o=(new Date).getTimezoneOffset();if(a.dataLayer)for(const n of Object.entries(Object.entries(dataLayer).reduce(((o,p)=>({...o[1],...p[1]})),{})))zaraz.set(n[0],n[1],{scope:"page"});a[c].q=[];for(;a.zaraz.q.length;){const q=a.zaraz.q.shift();a[c].q.push(q)}i.defer=!0;for(const r of[localStorage,sessionStorage])Object.keys(r||{}).filter((t=>t.startsWith("_zaraz_"))).forEach((s=>{try{a[c]["z_"+s.slice(7)]=JSON.parse(r.getItem(s))}catch{a[c]["z_"+s.slice(7)]=r.getItem(s)}}));i.referrerPolicy="origin";i.src="../../../cdn-cgi/zaraz/sd0d9.js?z="+btoa(encodeURIComponent(JSON.stringify(a[c])));h.parentNode.insertBefore(i,h)};["complete","interactive"].includes(b.readyState)?zaraz.init():a.addEventListener("DOMContentLoaded",zaraz.init)}(w,d,"zarazData","script");})(window,document);</script></head>
+<body>
+    <section class="sign-in">
+        <div class="container">
+        <div class="signin-content">
+        <div class="signin-image">
+        <figure><img src="../Sign in/images/signin-image.jpg" alt="sing up image"></figure>
+        <a href="#" class="signup-image-link">Create an account</a>
+        </div>
+        <div class="signin-form">
+        <h2 class="form-title">Sign in</h2>
+        <form action="/signin" method="POST" class="register-form" id="login-form">
+        <div class="form-group">
+        <label for="your_name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+        <input type="text" name="Name" id="your_name" placeholder="Your Name" />
+        </div>
+        <div class="form-group">
+        <label for="your_pass"><i class="zmdi zmdi-lock"></i></label>
+        <input type="password" name="Password" id="your_pass" placeholder="Password" />
+        </div>
+        <div class="form-group">
+        <input type="checkbox" name="remember-me" id="remember-me" class="agree-term" />
+        <label for="remember-me" class="label-agree-term"><span><span></span></span>Remember me</label>
+        </div>
+        <div class="form-group form-button">
+        <input type="submit"  id="signin" class="form-submit" />
+        </div>
+        </form>
+        <div class="social-login">
+        <span class="social-label">Or login with</span>
+        <ul class="socials">
+        <li><a href="#"><i class="display-flex-center zmdi zmdi-facebook"></i></a></li>
+        <li><a href="#"><i class="display-flex-center zmdi zmdi-twitter"></i></a></li>
+        <li><a href="#"><i class="display-flex-center zmdi zmdi-google"></i></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+        </div>
+</body>
+</html>
