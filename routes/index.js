@@ -4,9 +4,11 @@ const userHelpers = require("../helpers/userHelpers");
 
 /* GET home page. */
 router.get('/', (req, res) => {
-  res.render('index', { title: 'Express' });
+  res.render('index');
 });
-
+router.get("/post-details", (req, res) => {
+  res.render("post-details");
+});
 router.get("/signin", (req, res) => {
  res.render("signin");
 });
