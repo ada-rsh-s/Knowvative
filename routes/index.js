@@ -12,7 +12,15 @@ router.get("/post-details", (req, res) => {
 router.get("/signin", (req, res) => {
  res.render("signin");
 });
-
+router.get("/signup", (req, res) => {
+  res.render("signup");
+});
+router.get("/explore", (req, res) => {
+  res.render("search");
+});
+router.get("/point-table", (req, res) => {
+  res.render("ranking");
+});
 // router.post("/signin", (req, res) => {
 //  userHelpers.signin(req.body).then((response) => {
 //    console.log(response);
