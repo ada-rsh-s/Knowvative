@@ -1,7 +1,9 @@
 {
   "name": "knowvative",
   "version": "0.0.0",
-  "private": true,
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "start": "nodemon ./bin/www"
   },

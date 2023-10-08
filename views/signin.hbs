@@ -19,11 +19,11 @@
         <div class="signin-content">
         <div class="signin-image">
         <figure><img src="../Sign in/images/signin-image.jpg" alt="sing up image"></figure>
-        <a href="#" class="signup-image-link">Create an account</a>
         </div>
+        
         <div class="signin-form">
         <h2 class="form-title">Sign in</h2>
-        <form action="/signin" method="POST" class="register-form" id="login-form">
+        <form action="/" method="get" class="register-form" id="login-form">
         <div class="form-group">
         <label for="your_name"><i class="zmdi zmdi-account material-icons-name"></i></label>
         <input type="text" name="Name" id="your_name" placeholder="Your Name" />
@@ -37,12 +37,14 @@
         <label for="remember-me" class="label-agree-term"><span><span></span></span>Remember me</label>
         </div>
         <div class="form-group form-button">
-        <input type="submit"  id="signin" class="form-submit" />
-        </div>
+<input  type="submit"  id="signin" class="form-submit" />
+        </div>   
+                <a style="margin-left: -40px;" href="/signup" class="signup-image-link">Already a member? Create an account</a>
+
         </form>
-        <div class="social-login">
+        <div style="margin-top: 20px;" class="social-login">
         <span class="social-label">Or login with</span>
-        <ul class="socials">
+        <ul class="socials">  
         <li><a href="#"><i class="display-flex-center zmdi zmdi-facebook"></i></a></li>
         <li><a href="#"><i class="display-flex-center zmdi zmdi-twitter"></i></a></li>
         <li><a href="#"><i class="display-flex-center zmdi zmdi-google"></i></a></li>
