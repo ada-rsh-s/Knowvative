@@ -12,7 +12,7 @@ var app = express();
 var db = require("./config/connection");
 const collection = require("./config/collections");
 
-db.connect();
+// db.connect();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
 app.engine(
