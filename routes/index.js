@@ -12,6 +12,7 @@ router.get("/post-details", (req, res) => {
 router.get("/signin", (req, res) => {
  res.render("signin");
 });
+
 // router.post("/signin", (req, res) => {
 //  userHelpers.signin(req.body).then((response) => {
 //    console.log(response);
