@@ -21,6 +21,12 @@ router.get("/explore", (req, res) => {
 router.get("/point-table", (req, res) => {
   res.render("ranking");
 });
+router.get("/donate", (req, res) => {
+  res.render("donation");
+});
+router.get("/contributors", (req, res) => {
+  res.render("contributors");
+});
 // router.post("/signin", (req, res) => {
 //  userHelpers.signin(req.body).then((response) => {
 //    console.log(response);
