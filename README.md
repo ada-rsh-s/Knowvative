@@ -1,8 +1,8 @@
 # Knowvative
 
-# Clone the repo
+Clone the repo
 
-# Installation
+Installation
 
 - npm i
 
